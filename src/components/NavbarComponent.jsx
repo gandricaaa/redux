@@ -12,6 +12,7 @@ function NavbarComponent() {
         <ul className='flex items-center space-x-4'>
            <Link to='/'>Home</Link>
            <Link to='/products'>Products </Link>
+           <Link to='/register'>Register</Link>
            <div>
             <span>{cart.length}</span>
            </div>

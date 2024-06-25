@@ -11,6 +11,7 @@ import HomePage from './pages/HomePage.jsx';
 import ProductsPage from './pages/ProductsPage.jsx';
 import { RouterProvider } from 'react-router';
 import SinglePage from './pages/SinglePage.jsx';
+import RegisterPage from './pages/RegisterPage.jsx';
 const router = createBrowserRouter([
 	{
 		path : '/',
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
 			{
 				path : '/singleProduct/:id',
 				element : <SinglePage/>
+			},
+			{
+				path : '/register',
+				element : <RegisterPage/>
 			}
 		]
 	}
